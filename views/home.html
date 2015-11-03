@@ -1,0 +1,40 @@
+<section class="content-section">
+	<div class="buy-container">
+		<div class="table-title">choose your sailings <span class="table-title-span">(Pick one for each box)</span></div>
+		<ul class="items-table">
+
+			<li class="item-box" ng-repeat="sailing in Checkout.getSailings()">
+					
+					<div class="item-image"><img class="img-responsive" ng-src="{{sailing.sailing_main_image}}"></div>
+					<div class="item-start-price-tag-container">
+						<div class="item-start-price-tag">
+							<div class="item-start-price-label">Starting at</div>
+							<h2 class="item-start-price">{{Checkout.findStartingPriceforSailing(sailing) | currency:"$":0}}</h2>
+						</div>
+						<div class="item-start-price-tag-tale"></div>
+					</div>
+
+					<div class="item-titles-box">
+						<div class="item-subtitle">{{Checkout.getCruiseLineInfo(Checkout.getCruiseLine(sailing.sailing_cruise_line_id))}}</div>
+						<div class="item-main-title">{{sailing.sailing_name}}</div>
+					</div>
+
+					<ul class="sub-items-table sailing-dates">
+
+						<li class="sub-item-box" ng-repeat="sailingDate in sailing.sailing_options">
+							<fieldset class="sub-item-fieldset">
+								<input type="radio" class="sub-item-radio" name="{{sailing.sailing_name}}" ng-value="{{sailingDate.sailing_price}}" ng-model="sailingTotal" ng-click="sumarizeAllCheckedRadios()"/>
+								<label class="sub-item-label">{{sailingDate.sailing_date}}</label>
+								<div class="sub-item-price">{{sailingDate.sailing_price | currency:"$":0}}</div>
+							</fieldset>
+						</li>
+					</ul>
+
+				
+			</li>
+		</ul>
+		<div class="total-price-container col-md-12">
+			<div class="total-price-box"><span class="total-price-label">Your selected sailings total</span> <span class="total-price">{{sailingsTotal | currency:"$":0}}</span></div>
+		</div>
+	</div>
+</section>

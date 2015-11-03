@@ -1,0 +1,160 @@
+body{
+	background: #d6d6d6;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #000;
+	line-height: 1;
+}
+ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+	float: left;
+}
+.view-container{
+	padding: 0;
+}
+.table-title{
+	font-size: 36px;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin: 30px 0px 40px 0px;
+}
+.table-title-span{
+	color: #3c3c3c;
+	font-size: 16px;
+	font-style: italic;
+	text-transform: none;
+}
+.items-table{
+	float: left;
+}
+.item-box{
+	background: #FFF;
+	margin: 0px 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.item-box:first-child{
+	margin-left: 0px
+}
+.item-box:last-child{
+	margin-right: 0px;
+}
+.item-start-price-label{
+	font-size: 12px;
+	margin: 10px 0px 0px 10px;
+	float: left;
+}
+.item-start-price-tag{
+	float: left;
+	width: 100%;
+	padding-bottom: 10px;
+}
+.item-start-price{
+	font-family: "Lato Black";
+	font-size: 40px;
+	float: right;
+	margin: 0px 10px 0px 0px;
+}
+.item-start-price-tag,.total-price{
+	background: #ff9900;	
+}
+.item-start-price-tag-container{
+	position: absolute;
+	width: 125px;
+	/*padding: 10px 15px 20px 10px;*/
+	top: 30px;
+	right: -10px;
+}
+.item-start-price-tag-tale{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background: url("../assets/images/price_tag_tale.png") no-repeat 0 0;
+	top: 75px;
+	right: 1px;
+
+}
+.sub-item-price{
+	color: #ff9900;
+}
+.item-start-price{
+	font-weight: 900;
+}
+.item-main-title{
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: capitalize;
+	text-align: left;
+}
+.item-subtitle{
+	color: #333333;
+	font-size: 12px;
+	text-transform: capitalize;
+	text-align: left;
+}
+.item-main-title,.item-subtitle,.sub-item-box{
+	padding: 10px 25px 0px 15px;
+}
+label{
+	cursor: text;
+}
+input[type="radio"]{
+	float: left;
+	/*margin-right: 10px;*/
+	cursor: pointer;
+	opacity: 0;
+	width: 15px;
+	height: 15px;
+}
+input[type="radio"] + label{
+	padding: 5px 0 4px 30px;
+	margin: 0 0 0 -18px;
+	background: url("../assets/images/radio_off.png") no-repeat left center;
+}
+input[type="radio"]:checked + label{
+	background: #d6d6d6;
+	background: url("../assets/images/radio_on_1.png") no-repeat left center;
+}
+.sub-item-label{
+	text-transform: capitalize;
+	float: left;
+	font-weight: 400;
+}
+.sub-item-price{
+	float: right;
+	font-weight: 700;
+	padding-top: 5px;
+}
+.sub-item-box,fieldset{
+	width: 100%;
+	float: left;
+	font-size: 16px;
+}
+.total-price-container{
+	border-top: 3px solid #ababab;
+	margin-top: 30px;
+	padding: 30px 0px 30px 15px;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+.total-price-box{
+	font-size: 28px;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.total-price-label{
+	text-align: left;	
+	float: left;
+}
+.total-price{
+	float: right;
+	padding: 10px 10px 10px 25px;
+	margin-top: -10px;
+	text-align: right;
+}

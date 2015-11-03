@@ -1,0 +1,241 @@
+@media only screen and (max-width: 590px){
+.view-container{
+	padding: 0px 25px;
+}
+.table-title{
+	font-size: 30px;
+}
+.table-title-span{
+	float: left;
+	clear: both;
+	width: 100%;
+}
+.items-table{
+	width: 100%;
+}
+.item-box{
+	width: 100%;
+	margin: 10px 0px;
+}
+.item-box:first-child{
+	margin-top: 0px
+}
+.item-box:last-child{
+	margin-bottom: 0px;
+}
+.item-titles-box{
+	float: left;
+	width: 100%;
+}
+.item-image{
+	width: 100%;
+	float: left;
+}
+.item-image img{
+	width: 100%;
+	float: left;
+}
+.sub-items-table{
+	width: 100%;
+	margin-top: 35px;
+}
+.item-subtitle{
+	padding: 30px 25px 0px 20px;
+}
+.item-main-title{
+	padding: 0px 25px 0px 20px;	
+	font-size: 28px;
+}
+.sub-item-box{
+	padding: 10px 25px 0px 20px;
+}
+.total-price-container{
+	background: #FFF;
+	padding: 0px 0px 0px 10px;
+	margin-top: 0px;
+}
+.total-price-box{
+	padding-top: 15px;
+	font-size: 18px;
+	height: 70px;
+}
+.total-price-label{
+	width: 50%;
+	font-size: 16px;
+}
+.total-price{
+	padding: 10px 10px 15px 20px;
+	margin-top: -15px;
+	font-size: 28px;
+	height: 70px;
+}
+}
+
+
+@media only screen and (min-width: 590px) and (max-width: 680px){
+.view-container{
+	padding: 0px 40px 0px 40px;
+}
+.item-box{
+	width: 100%;
+	margin: 10px 0px;
+	padding-bottom: 0px;
+}
+.item-box:first-child{
+	margin-top: 0px
+}
+.item-box:last-child{
+	margin-bottom: 0px;
+}
+.item-titles-box{
+	float: left;
+	width: 30%;
+}
+.item-image{
+	max-width: 300px;
+	float: left;
+}
+.sub-items-table{
+	width: 40%;
+	margin-top: 35px;
+}
+.sub-item-box, fieldset{
+	font-size: 14px;
+}
+.item-subtitle{
+	padding: 30px 25px 0px 20px;
+}
+.item-main-title{
+	padding: 0px 25px 0px 20px;	
+	font-size: 18px;
+	margin-top: 10px;
+}
+.sub-item-box{
+	padding: 10px 25px 0px 20px;
+}
+.total-price-container{
+	background: #FFF;
+	padding: 0px 40px 75px 20px;
+	margin-top: 0px;
+}
+.total-price-box{
+	padding-top: 15px;
+	font-size: 22px;
+}
+.total-price{
+	padding: 10px 10px 10px 55px;
+	margin-top: -15px;
+}
+}
+@media only screen and (min-width: 680px) and (max-width: 768px){
+.view-container{
+	padding: 0px 40px 0px 40px;
+}
+.item-box{
+	width: 100%;
+	margin: 10px 0px;
+	padding-bottom: 0px;
+}
+.item-box:first-child{
+	margin-top: 0px
+}
+.item-box:last-child{
+	margin-bottom: 0px;
+}
+.item-titles-box{
+	float: left;
+	width: 45%;
+}
+.item-image{
+	max-width: 300px;
+	float: left;
+}
+.sub-items-table{
+	width: 300px;
+	margin-top: 35px;
+}
+.item-subtitle{
+	padding: 30px 25px 0px 20px;
+}
+.item-main-title{
+	padding: 0px 25px 0px 20px;	
+	font-size: 24px;
+}
+.sub-item-box{
+	padding: 10px 25px 0px 20px;
+}
+.total-price-container{
+	background: #FFF;
+	padding: 0px 40px 75px 20px;
+	margin-top: 0px;
+}
+.total-price-box{
+	padding-top: 15px;
+	font-size: 24px;
+}
+.total-price{
+	padding: 10px 10px 10px 105px;
+	margin-top: -15px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1010px){
+.view-container{
+	padding: 0px 40px 0px 40px;
+}
+.item-box{
+	width: 100%;
+	margin: 10px 0px;
+	padding-bottom: 0px;
+}
+.item-box:first-child{
+	margin-top: 0px
+}
+.item-box:last-child{
+	margin-bottom: 0px;
+}
+.item-titles-box{
+	float: left;
+	width: 40%;
+}
+.item-image{
+	max-width: 300px;
+	float: left;
+}
+.sub-items-table{
+	width: 320px;
+	margin-top: 35px;
+}
+.item-subtitle{
+	padding: 30px 25px 0px 20px;
+}
+.item-main-title{
+	padding: 0px 25px 0px 20px;	
+	font-size: 32px;
+}
+.sub-item-box{
+	padding: 10px 25px 0px 20px;
+}
+.total-price-container{
+	background: #FFF;
+	padding: 0px 60px 75px 40px;
+	margin-top: 0px;
+}
+.total-price-box{
+	padding-top: 15px;
+}
+.total-price{
+	padding: 10px 10px 10px 145px;
+	margin-top: -15px;
+}
+}
+@media only screen and (min-width: 1010px){
+.view-container{
+	width: 1010px;
+	padding: 0px 30px 0px 40px;
+}
+
+.item-box{
+	max-width: 300px;
+}
+}
